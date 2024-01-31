@@ -1,7 +1,5 @@
-
-
-export default function ItemList({items}) {
-  
+export default function ItemList({ items }) {
+  console.log(items);
   return (
     <ul>
       {items.map((item) => {
@@ -15,7 +13,7 @@ function Item({ item }) {
   return (
     <li className="item">
       <label>
-        <input type="checkbox"  />
+        <input type="checkbox" />
         {item.name}
       </label>
       <button>❌</button>

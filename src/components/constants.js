@@ -1,3 +1,5 @@
+import toast from "react-hot-toast";
+
 export const initialItems = [
   {
     id: 1,
@@ -27,3 +29,5 @@ export const secondaryButtons = [
   "Reset to initial",
   "Remove all items",
 ];
+
+export const notify = (message, type) => toast[type](message);

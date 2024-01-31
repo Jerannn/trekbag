@@ -15,8 +15,15 @@ export const initialItems = [
     packed: false,
   },
   {
-    id: 1,
+    id: 4,
     name: "cellphone",
     packed: true,
   },
+];
+
+export const secondaryButtons = [
+  "Mark all as complete",
+  "Mark all as incomplete",
+  "Reset to initial",
+  "Remove all items",
 ];
